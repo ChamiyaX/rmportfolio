@@ -22,7 +22,7 @@ export default function AboutSection() {
             className="glass-panel rounded-2xl p-6"
           >
             <p className="leading-7 text-slate-700 dark:text-slate-300">
-              I am Chamidu Rathnayake, an IT Support Specialist with more than four years of hands-on
+              I am Chamidu Rathnayake, an IT Support Specialist with more than nine years of hands-on
               experience in technical support, hardware and software troubleshooting, and
               productivity-focused IT operations. I combine strong problem-solving with design and
               development skills to deliver practical, user-friendly digital outcomes.

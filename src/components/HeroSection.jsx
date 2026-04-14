@@ -23,7 +23,7 @@ export default function HeroSection() {
             <TypingText words={typingRoles} />
           </h2>
           <p className="max-w-xl text-slate-600 dark:text-slate-400">
-            IT Support Specialist with 4+ years of experience in hardware and software troubleshooting,
+            IT Support Specialist with 9+ years of experience in hardware and software troubleshooting,
             user support, and creative digital solutions.
           </p>
           <div className="flex flex-wrap gap-4">
