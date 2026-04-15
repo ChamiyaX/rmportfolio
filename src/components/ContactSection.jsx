@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { Mail, Phone } from "lucide-react";
+import { Mail, MessageCircle, Phone } from "lucide-react";
 import { useState } from "react";
 import SectionHeading from "./SectionHeading";
 
@@ -117,6 +117,28 @@ export default function ContactSection() {
               <Phone size={18} className="text-brand-500" />
               <span className="text-slate-700 transition-colors group-hover:text-brand-500 dark:text-slate-300">
                 0767184785
+              </span>
+            </a>
+
+            <a
+              href="tel:+94706002099"
+              className="group flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 transition-all duration-300 hover:border-brand-500 hover:bg-brand-500/5 dark:border-slate-700"
+            >
+              <Phone size={18} className="text-brand-500" />
+              <span className="text-slate-700 transition-colors group-hover:text-brand-500 dark:text-slate-300">
+                0706002099
+              </span>
+            </a>
+
+            <a
+              href="https://wa.me/94706002099"
+              target="_blank"
+              rel="noreferrer"
+              className="group flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3 transition-all duration-300 hover:border-brand-500 hover:bg-brand-500/5 dark:border-slate-700"
+            >
+              <MessageCircle size={18} className="text-brand-500" />
+              <span className="text-slate-700 transition-colors group-hover:text-brand-500 dark:text-slate-300">
+                WhatsApp: 0706002099
               </span>
             </a>
 
